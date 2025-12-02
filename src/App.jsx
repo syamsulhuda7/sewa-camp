@@ -17,9 +17,9 @@ const PRODUCTS = [
     price: "Rp 80.000/hari",
     short: "Tenda ringan & mudah dipasang, cocok untuk 2 orang.",
     images: [
-      "https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1482192505345-5655af888cc4?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1633805159007-8e198bbcc931?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1550957886-ac45931e5779?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1594229392247-3a2f068d5ca8?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     ],
   },
   {
@@ -28,8 +28,8 @@ const PRODUCTS = [
     price: "Rp 140.000/hari",
     short: "Lebih luas, nyaman untuk keluarga kecil.",
     images: [
-      "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c8?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1501959915551-4e8c7f0b4bde?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1731082627921-77d00a9e5ab7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1714326029322-fcc1464df757?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     ],
   },
   {
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "Rp 25.000/hari",
     short: "Matras empuk, ringan dan tahan lama.",
     images: [
-      "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1708105559945-ad5d6612c78c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2xlZXBpbmclMjBiYWd8ZW58MHwwfDB8fHwy",
     ],
   },
   {
@@ -47,7 +47,8 @@ const PRODUCTS = [
     price: "Rp 30.000/hari",
     short: "Kompor gas portable, mudah digunakan.",
     images: [
-      "https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1522041350204-22285237eeca?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2FtcGluZyUyMHN0b3ZlfGVufDB8MHwwfHx8Mg%3D%3D",
+      "https://images.unsplash.com/photo-1664429764866-227d36d8c1a5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhbXBpbmclMjBzdG92ZXxlbnwwfDB8MHx8fDI%3D",
     ],
   },
 ];
