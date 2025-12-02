@@ -121,8 +121,9 @@ function Hero() {
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-8">
         <motion.div
           initial={{ opacity: 0, x: -30 }}
-          animate={{ opacity: 1, x: 0 }}
+          whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
+          viewport={{ once: true, amount: 0.2 }}
           className="flex-1"
         >
           <h1 className="text-3xl md:text-4xl font-extrabold leading-tight text-gray-900 dark:text-gray-100">
@@ -160,7 +161,8 @@ function Hero() {
 
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true, amount: 0.2 }}
+          whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.15 }}
           className="flex-1"
         >
@@ -199,6 +201,10 @@ function Features() {
           {items.map((it, idx) => (
             <motion.div
               key={idx}
+              initial={{ opacity: 0, y: 8 }}
+              viewport={{ once: true, amount: 0.2 }}
+              transition={{ duration: 0.6, delay: 0.15 }}
+              whileInView={{ opacity: 1, y: 0 }}
               whileHover={{ y: -6 }}
               className="p-6 rounded-xl shadow-sm bg-gray-50 dark:bg-gray-800"
             >
@@ -224,7 +230,8 @@ function ProductModal({ product, onClose }) {
     <AnimatePresence>
       <motion.div
         initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
+        viewport={{ once: true, amount: 0.2 }}
+        whileInView={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         className="fixed inset-0 z-50 flex items-center justify-center"
       >
@@ -235,7 +242,8 @@ function ProductModal({ product, onClose }) {
 
         <motion.div
           initial={{ y: 20, scale: 0.98 }}
-          animate={{ y: 0, scale: 1 }}
+          viewport={{ once: true, amount: 0.2 }}
+          whileInView={{ y: 0, scale: 1 }}
           exit={{ y: 20, opacity: 0 }}
           className="relative max-w-3xl w-full mx-4 bg-white dark:bg-gray-800 rounded-2xl shadow-xl overflow-hidden"
         >
@@ -369,6 +377,8 @@ function Testimonials() {
             <motion.div
               key={i}
               initial={{ opacity: 0, y: 8 }}
+              viewport={{ once: true, amount: 0.2 }}
+              transition={{ duration: 0.6, delay: 0.15 }}
               whileInView={{ opacity: 1, y: 0 }}
               className="p-6 bg-gray-50 dark:bg-gray-800 rounded-xl shadow"
             >
